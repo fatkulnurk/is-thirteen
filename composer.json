@@ -1,0 +1,21 @@
+{
+  "name": "fatkulnurk/is-thirteen",
+  "description": "Check if a number is equal to 13. (PHP VERSION)",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Fatkul Nur Koirudin",
+      "email": "fatkulnur@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Fatkulnurk\\IsThirteen\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.2",
+    "ext-json": "*"
+  }
+}
