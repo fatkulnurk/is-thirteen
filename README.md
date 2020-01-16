@@ -11,26 +11,26 @@ composer require fatkulnurk/is-thirteen
 <?php
 use Fatkulnurk\IsThirteen\Is;
 
-var_dump((new Is(13))->thirteen());
+var_dump((new Is(13))->thirteen()); //true
 echo "\r\n";
-var_dump((new Is(12.8))->roughly()->thirteen());
+var_dump((new Is(12.8))->roughly()->thirteen()); // true
 echo "\r\n";
-var_dump((new Is(6))->within(10)->of()->thirteen());
+var_dump((new Is(6))->within(10)->of()->thirteen()); // true
 echo "\r\n";
-var_dump((new Is(2007))->yearOfBirth());
+var_dump((new Is(2007))->yearOfBirth()); // true
 echo "\r\n";
 echo "Math";
 echo "\r\n";
-var_dump((new Is(4))->plus(5)->thirteen());
+var_dump((new Is(4))->plus(5)->thirteen()); // false
 echo "\r\n";
-var_dump((new Is(12))->plus(1)->thirteen());
+var_dump((new Is(12))->plus(1)->thirteen());  // true
 echo "\r\n";
-var_dump((new Is(4))->minus(12)->thirteen());
+var_dump((new Is(4))->minus(12)->thirteen()); // false
 echo "\r\n";
-var_dump((new Is(14))->minus(1)->thirteen());
+var_dump((new Is(14))->minus(1)->thirteen()); // true
 echo "\r\n";
-var_dump((new Is(1))->times(8)->thirteen());
+var_dump((new Is(1))->times(8)->thirteen()); // false
 echo "\r\n";
-var_dump((new Is(26))->divideby(2)->thirteen());
+var_dump((new Is(26))->divideby(2)->thirteen()); // true
 echo "\r\n";
 ````
