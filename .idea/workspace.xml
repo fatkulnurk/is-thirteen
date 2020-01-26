@@ -2,14 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e93a4dad-98bc-4404-9c26-6d7b294dd9a0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/is-thirteen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/is-thirteen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example.php" beforeDir="false" afterPath="$PROJECT_DIR$/example.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <executable />
     </execution>
@@ -17,7 +33,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1WTVxOLPJy7BYZGQq5u3kWvlIq2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -59,6 +79,8 @@
       <option name="presentableId" value="Default" />
       <updated>1579173817341</updated>
       <workItem from="1579173818748" duration="3474000" />
+      <workItem from="1579177386957" duration="718000" />
+      <workItem from="1580046171991" duration="1698000" />
     </task>
     <servers />
   </component>
@@ -70,9 +92,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="459" y="198" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1579174092550" />
-    <state x="188" y="299" key="NewPhpFileDialog" timestamp="1579175894408">
+    <state x="188" y="299" key="NewPhpFileDialog" timestamp="1580046845402">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="188" y="299" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1579175894408" />
+    <state x="188" y="299" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1580046845402" />
   </component>
 </project>

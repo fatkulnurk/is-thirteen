@@ -12,7 +12,10 @@
   "autoload": {
     "psr-4": {
       "Fatkulnurk\\IsThirteen\\": "src/"
-    }
+    },
+    "files": [
+      "src/functions.php"
+    ]
   },
   "require": {}
 }
